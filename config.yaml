@@ -18,6 +18,8 @@ markup:
       unsafe: true
 
 params:
+  staticPath: "/Portfolio-Dzakiyuddin" # penting untuk Project Pages agar asset path benar
+  useBootstrapCDN: true # opsional, cepat bikin CSS/JS jalan via CDN
   # --- BASIC SITE META ---
   title: "Muhammad Dzakiyuddin Haidar"
   description: "Data Analyst Portfolio"
