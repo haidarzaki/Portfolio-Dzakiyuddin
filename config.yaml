@@ -19,17 +19,16 @@ markup:
 
 params:
   staticPath: "/Portfolio-Dzakiyuddin" # penting untuk Project Pages agar asset path benar
-  useBootstrapCDN: true # opsional, cepat bikin CSS/JS jalan via CDN
-  # --- BASIC SITE META ---
+  useBootstrapCDN: true
   title: "Muhammad Dzakiyuddin Haidar"
   description: "Data Analyst Portfolio"
-  favicon: "/fav.png"
+  favicon: "/Portfolio-Dzakiyuddin/images/fav.png" # path diperbaiki
 
   # --- NAVBAR ---
   navbar:
     align: ms-auto
     brandName: "Muhammad Dzakiyuddin Haidar"
-    disableSearch: true # hilangkan kotak search
+    disableSearch: true
     stickyNavBar:
       enable: true
       showOnScrollUp: true
@@ -39,23 +38,23 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: false
-      disableAchievements: true # sementara tidak dipakai
+      disableAchievements: true
       disableContact: false
 
-  # --- HERO (fokus Data Analyst) ---
+  # --- HERO ---
   hero:
     enable: true
     intro: "Hi, my name is"
     title: "Muhammad Dzakiyuddin Haidar"
     subtitle: "Data Analyst | Turning Data into Insights"
     content: "Fresh graduate in Informatics specializing in data analysis, visualization, and storytelling. Skilled in Python, SQL, and dashboards (Power BI, Tableau)."
-    image: /images/profile.jpeg # taruh fotomu di static/images/profile.jpeg
+    image: "/Portfolio-Dzakiyuddin/images/profile.jpeg" # path diperbaiki
     bottomImage:
       enable: true
     button:
       enable: true
       name: "Resume"
-      url: "/cv.pdf" # taruh CV di static/cv.pdf (opsional)
+      url: "/Portfolio-Dzakiyuddin/cv.pdf" # path diperbaiki
       download: false
       newPage: true
     socialLinks:
@@ -71,7 +70,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/profile.jpeg"
+    image: "/Portfolio-Dzakiyuddin/images/profile.jpeg" # path diperbaiki
     content: |
       I’m a fresh graduate who enjoys turning data into clear, actionable insights. Interests: data visualization, dashboard development, and understanding digital behavior.
     skills:
@@ -85,102 +84,21 @@ params:
         - Figma
         - HTML/CSS/JS
 
-  # --- EXPERIENCE ---
-  experience:
-    enable: true
-    items:
-      - job: "Data Structure Lab Assistant"
-        company: "Informatics Laboratory - Bandung"
-        companyUrl: "https://informatics.labs.telkomuniversity.ac.id/"
-        date: "Sep 2023 – Jan 2024"
-        content: |
-          - Guided weekly C++/data-structures laboratory sessions and evaluated student submissions.
-          - Provided academic support and feedback to over 60 students per semester.
-          - Collaborated with faculty to prepare lab materials and problem sets.
-      - job: "UI/UX Designer & Frontend Intern"
-        company: "Telkom Indonesia - Bandung"
-        companyUrl: "https://www.telkom.co.id/"
-        date: "Jul 2024 – Aug 2024"
-        content: |
-          - Designed and developed Telpass frontend using HTML, CSS, JavaScript, and Tailwind CSS.
-          - Conducted usability testing to improve user experience and interface efficiency.
-          - Collaborated with cross-functional teams to align design with backend API integration.
-      - job: "Data Research Analyst — Intern"
-        company: "Badan Riset dan Inovasi Nasional"
-        companyUrl: "https://www.brin.go.id/"
-        date: "Mar 2024 – Jul 2024"
-        content: |
-          - Analyzed survey data from 120+ SMEs to extract actionable insights for policy recommendations.
-          - Contributed to an official publication detailing SME digital adoption trends.
-          - Cleaned and prepared raw data using Python and Excel for statistical analysis.
-
-  # --- EDUCATION (termasuk SMA) ---
-  education:
-    enable: true
-    index: false
-    items:
-      - title: "Bachelor of Informatics (GPA 3.56 / 4.00)"
-        school:
-          name: "Telkom University — Bandung, Indonesia"
-          url: "https://telkomuniversity.ac.id/"
-        date: "Sep 2021 – Feb 2025"
-        content: |-
-          Relevant Coursework:
-            - Data Structures and Algorithms
-            - Database Systems
-            - Web Development
-            - Machine Learning
-            - Data Mining
-      - title: "High School"
-        school:
-          name: "SMAN 1 Ciamis"
-          url: "https://www.sman1ciamis.sch.id/"
-        date: "2018 – 2021"
-
   # --- PROJECTS ---
   projects:
     enable: true
     items:
       - title: "Telpass — Digital Leave Management"
         content: "Streamlined leave requests with responsive UI and research-driven UX."
-        image: /images/projects/telpass.png # siapkan placeholder di static/images/projects/telpass.png
+        image: "/Portfolio-Dzakiyuddin/images/projects/telpass.png" # path diperbaiki
         badges: ["HTML", "CSS", "JavaScript", "Tailwind"]
         links:
           - icon: fab fa-github
             url: https://github.com/haidarzaki/Telpass
       - title: "SME Digital Readiness Analysis — BRIN"
         content: "EDA for 120+ SMEs with maturity categorization and dashboards."
-        image: /images/projects/brin.png # siapkan placeholder di static/images/projects/brin.png
+        image: "/Portfolio-Dzakiyuddin/images/projects/brin.png" # path diperbaiki
         badges: ["Python", "Visualization"]
         links:
           - icon: fa fa-link
             url: "https://doi.org/10.1109/ASIANComNet63184.2024.10811067"
-
-  # --- CONTACT ---
-  contact:
-    enable: true
-    content: "Feel free to reach out via email or LinkedIn."
-    btnName: "Email Me"
-    btnLink: "mailto:dzakiyuddinhaidar@gmail.com"
-
-  # --- FOOTER (opsional) ---
-  footer:
-    recentPosts:
-      enable: false
-    socialNetworks:
-      github: https://github.com/haidarzaki
-      linkedin: https://www.linkedin.com/in/muhammad-dzakiyuddin-haidar/
-      instagram: https://www.instagram.com/haidarzakii/
-
-# List & single pages (biarkan default tema)
-listPages:
-  disableFeaturedImage: false
-singlePages:
-  socialShare: true
-  readTime:
-    enable: true
-    content: "min read"
-  scrollprogress:
-    enable: true
-  tags:
-    openInNewTab: true
