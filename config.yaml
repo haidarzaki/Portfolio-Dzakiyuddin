@@ -22,7 +22,7 @@ params:
   useBootstrapCDN: true
   title: "Muhammad Dzakiyuddin Haidar"
   description: "Data Analyst Portfolio"
-  favicon: "/Portfolio-Dzakiyuddin/images/fav.png" # path diperbaiki
+  favicon: "/Portfolio-Dzakiyuddin/fav.png" # path diperbaiki
 
   # --- NAVBAR ---
   navbar:
@@ -54,7 +54,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/Portfolio-Dzakiyuddin/cv.pdf" # path diperbaiki
+      url: "/Portfolio-Dzakiyuddin/images/cv.pdf" # path diperbaiki
       download: false
       newPage: true
     socialLinks:
