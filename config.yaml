@@ -83,6 +83,57 @@ params:
         - Streamlit
         - Figma
         - HTML/CSS/JS
+    # --- EXPERIENCE ---
+  experience:
+    enable: true
+    items:
+      - job: "Data Structure Lab Assistant"
+        company: "Informatics Laboratory - Bandung"
+        companyUrl: "https://informatics.labs.telkomuniversity.ac.id/"
+        date: "Sep 2023 – Jan 2024"
+        content: |
+          - Guided weekly C++/data-structures laboratory sessions and evaluated student submissions.
+          - Provided academic support and feedback to over 60 students per semester.
+          - Collaborated with faculty to prepare lab materials and problem sets.
+      - job: "UI/UX Designer & Frontend Intern"
+        company: "Telkom Indonesia - Bandung"
+        companyUrl: "https://www.telkom.co.id/"
+        date: "Jul 2024 – Aug 2024"
+        content: |
+          - Designed and developed Telpass frontend using HTML, CSS, JavaScript, and Tailwind CSS.
+          - Conducted usability testing to improve user experience and interface efficiency.
+          - Collaborated with cross-functional teams to align design with backend API integration.
+      - job: "Data Research Analyst — Intern"
+        company: "Badan Riset dan Inovasi Nasional"
+        companyUrl: "https://www.brin.go.id/"
+        date: "Mar 2024 – Jul 2024"
+        content: |
+          - Analyzed survey data from 120+ SMEs to extract actionable insights for policy recommendations.
+          - Contributed to an official publication detailing SME digital adoption trends.
+          - Cleaned and prepared raw data using Python and Excel for statistical analysis.
+
+  # --- EDUCATION (termasuk SMA) ---
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "Bachelor of Informatics (GPA 3.56 / 4.00)"
+        school:
+          name: "Telkom University — Bandung, Indonesia"
+          url: "https://telkomuniversity.ac.id/"
+        date: "Sep 2021 – Feb 2025"
+        content: |-
+          Relevant Coursework:
+            - Data Structures and Algorithms
+            - Database Systems
+            - Web Development
+            - Machine Learning
+            - Data Mining
+      - title: "High School"
+        school:
+          name: "SMAN 1 Ciamis"
+          url: "https://www.sman1ciamis.sch.id/"
+        date: "2018 – 2021"
 
   # --- PROJECTS ---
   projects:
@@ -102,3 +153,31 @@ params:
         links:
           - icon: fa fa-link
             url: "https://doi.org/10.1109/ASIANComNet63184.2024.10811067"
+    # --- CONTACT ---
+  contact:
+    enable: true
+    content: "Feel free to reach out via email or LinkedIn."
+    btnName: "Email Me"
+    btnLink: "mailto:dzakiyuddinhaidar@gmail.com"
+
+  # --- FOOTER (opsional) ---
+  footer:
+    recentPosts:
+      enable: false
+    socialNetworks:
+      github: https://github.com/haidarzaki
+      linkedin: https://www.linkedin.com/in/muhammad-dzakiyuddin-haidar/
+      instagram: https://www.instagram.com/haidarzakii/
+
+# List & single pages (biarkan default tema)
+listPages:
+  disableFeaturedImage: false
+singlePages:
+  socialShare: true
+  readTime:
+    enable: true
+    content: "min read"
+  scrollprogress:
+    enable: true
+  tags:
+    openInNewTab: true""
